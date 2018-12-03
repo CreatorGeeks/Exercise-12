@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+	function add1(){
+		var number = document.getElementById('currentNumber').stepUp(1);
+	}
+</script>
+</head>
+<body style="background-color:lightgreen">
+	<h2 align="center">Lab 4</h2>
+	<h3>Add 1... 1-->2-->3-->etc</h3>
+	<form name="incrementForm">
+		<input type="button" value="add" onclick="add1();">
+		<input type="number" id="currentNumber" value="0">
+	</form>
+
+</body>
+</html> 
